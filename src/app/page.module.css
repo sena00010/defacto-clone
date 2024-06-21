@@ -1,0 +1,44 @@
+.videoFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.options {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1300px;
+  height: 500px;
+  background-image: url("https://dfcdn.defacto.com.tr/Mobile/imageor_desktop_f1f59786-0cff-4c7a-b2f1-2228c4b3c22d_55166f1e-ea8a-44ed-9b01-34de35d1f029_DI_429.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bannerButtons {
+  min-width: 127px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #22242a;
+  background: #fff;
+  margin: 5px 5px 0;
+  height: 50px;
+  min-height: 40px;
+  padding-top: 5px;
+  padding-bottom: 5px !important;
+}
+.bannerButtons:hover {
+  padding: 0 10px;
+  height: 50px;
+  font-size: 13px;
+  color: #fff;
+  border-radius: 0;
+  background-color: #22242a;
+  border: 1px solid #22242a;
+  transition: all 0.2s ease;
+}
+.bannerContainer {
+  height: 400px;
+  display: flex;
+  align-items: flex-end;
+}
